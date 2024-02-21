@@ -1,0 +1,75 @@
+*{
+   margin-top: 20px;
+   margin-left: 60px;
+   margin-right: 60px;
+   margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+body{
+    width: auto; background-color: aqua; border: dashed; text-align: center; 
+}
+
+
+h1{ 
+    background-color: antiquewhite; border: dotted; width: auto; text-align: center;
+}
+
+
+form{
+   font-size: x-large; text-align:center; background-color: antiquewhite; border: double; border-radius: 15px;
+width: auto;
+}
+
+
+label{
+    margin-left: 50px;
+}
+
+
+input[type="text"], input[type="email"]{
+    width: 60%; font-size: medium;
+}
+
+
+input[type="date"],input[type="number"]{
+    width: 30%; font-size: medium;
+}
+    
+
+input[type="radio"]{
+
+
+}
+
+
+textarea{
+    font-size:large; width: 700px; height: 200px; 
+}
+
+
+#eli{
+
+}
+
+
+#mygender{
+margin: 20px;
+}
+
+
+input[type="submit"]:hover{
+    background-color: greenyellow;}
+    
+    
+    input[type="submit"]{
+           cursor:pointer; font-size: medium; width: 120px;
+    }
+
+    input[type="reset"]:hover{
+        background-color: rgb(248, 12, 12);}
+
+        input[type="reset"]{
+            cursor:pointer; font-size: medium; width: 120px;
+     }        
