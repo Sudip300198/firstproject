@@ -182,3 +182,34 @@ function Myname(){
     }
 
     console.log(userlogged('Sudip'));
+
+
+
+    const accuntUser = "SomeoneAcc"
+    let accountEmail = "Somethingjs@gmail.com"
+    var accountPassword = "something@0905"
+    accountCity = "Mumbai"
+    let accountName                                                                                                                                                           ;
+
+    accountEmail = "SomethingElse@gmail.com"
+    accountEmail = "myemail@gmail.com"
+
+
+    accountPassword = 6295389298
+    accountCity = "Raghunathganj"
+
+    console.table([
+        accuntUser,
+        accountEmail,
+        accountPassword,
+        accountCity,
+        accountName
+    ])
+
+
+
+
+    const myParagraph = document.getElementById('my-paragraph');
+    myParagraph.textContent = "The text content of this paragraph is changed by Javascript"
+    
+    document.getElementById("my-paragraph").innerHTML = "Hello world";
