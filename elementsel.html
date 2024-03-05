@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="main">Main Heading</h1>
+    <p class="highlight">Highlighted Paragraph</p>
+    <p>Normal Photography</p>
+    <p class="highlight">Another Highlighted Paragraph</p>
+</body>
+</html>
+
+<script>
+    const mainHeading = document.getElementById('main');
+    mainHeading.style.color = 'red';
+
+    const highlightedParagraphs = document.getElementsByClassName('highlight');
+
+    highlightedParagraphs[0].style.backgroundColor = 'lightblue';
+    highlightedParagraphs[1].style.backgroundColor = 'lightblue';
+
+    const allParagraphs = document.getElementsByTagName('p');
+    allParagraphs[0].style.border = '1px solid black';
+    allParagraphs[1].style.border = '1px solid black';
+    allParagraphs[2].style.border = '1px solid black';
+
+    const firstHighlightedParagraph = document.querySelector('.highlight');
+    firstHighlightedParagraph.style.fontSize = '20px';
+
+    const allHighlightedParagraphs = document.querySelectorAll('.highlight');
+    allHighlightedParagraphs[0].style.color = 'green';
+    allHighlightedParagraphs[1].style.color = 'green';
+    </script>
